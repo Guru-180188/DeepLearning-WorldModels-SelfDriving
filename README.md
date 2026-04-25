@@ -55,7 +55,11 @@ python train.py
 
 ## 📺 Showcase
 
-The project generates a high-quality visualization of the World Model's "imagination". The video `imagination_4k.mp4` shows the model predicting the road and obstacles purely through its learned internal representation.
+The project generates a high-quality visualization of the World Model's "imagination". 
+
+<video src="imagination_4k.mp4" width="100%" controls></video>
+
+*The video above shows the model predicting the road and obstacles purely through its learned internal representation.*
 
 ## � Future Roadmap & Improvements
 To evolve this baseline world model into a production-grade system, the following enhancements are planned:
