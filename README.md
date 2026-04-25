@@ -57,5 +57,12 @@ python train.py
 
 The project generates a high-quality visualization of the World Model's "imagination". The video `imagination_4k.mp4` shows the model predicting the road and obstacles purely through its learned internal representation.
 
-## 📄 License
+## � Future Roadmap & Improvements
+To evolve this baseline world model into a production-grade system, the following enhancements are planned:
+- **Architectural Shift:** Replace the LSTM-based MDN-RNN with a **Categorical Reparameterization (RSSM)** or a **Temporal Transformer** for better long-horizon stability.
+- **Visual Fidelity:** Transition from a simple VAE to a **VQ-GAN** or **Diffusion-based** decoder to eliminate blurriness in high-resolution "imagination" steps.
+- **Perceptual Loss:** Integrate **LPIPS** loss into the VAE training to focus on structural details rather than just pixel-wise reconstruction.
+- **Environment Complexity:** Move from 2D procedural rendering to a **3D Unreal Engine/CARLA** integration for realistic sensor simulation.
+
+## �📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
